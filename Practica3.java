@@ -7,6 +7,7 @@ public class Practica3 {
 
         System.out.println("Cuantos numeros enteros quieres que se generen al azar?");
 
+        // Se definen variables y se emplea la funcion for para generar la cantidad de numeros pedida por el usuario para despues detectar el numero de mayor valor generado
         int cantidad = sc.nextInt();
         int numAleatorio=0;
         int numMax= 0;
